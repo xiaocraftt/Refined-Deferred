@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "mangrove_swamp"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#6C7A70"
+      },
+
+      "minecraft:fog_appearance": {
+        "fog_identifier": "rd:swamp_fog"
+      },
+
+      "minecraft:atmosphere_identifier": {
+        "atmosphere_identifier": "rd:swamp_atmospheric"
+      },
+
+      "minecraft:water_identifier": {
+        "water_identifier": "rd:swamp_water"
+      },
+
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "rd:color_grading_swamp"
+      },
+
+      "minecraft:water_appearance": {
+        "surface_color": "#355F5A"
+      }
+    }
+  }
+}

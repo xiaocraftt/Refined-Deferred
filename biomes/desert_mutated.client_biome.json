@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "desert_mutated"
+    },
+    "components": {
+      "minecraft:fog_appearance": {
+        "fog_identifier": "rd:desert_fog"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#7FA1B8"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#E3D3A8"
+      }
+    }
+  }
+}

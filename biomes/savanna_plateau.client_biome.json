@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "savanna_plateau"
+    },
+    "components": {
+      "minecraft:fog_appearance": {
+        "fog_identifier": "rd:savanna_fog"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#6F8A78"
+      },
+      "minecraft:sky_color": {
+        "sky_color": "#D8C28A"
+      }
+    }
+  }
+}
