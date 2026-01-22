@@ -1,21 +1,21 @@
 {
-  "format_version": "1.21.80",
+  "format_version": "1.21.70",
   "minecraft:client_biome": {
     "description": {
       "identifier": "the_end"
     },
     "components": {
       "minecraft:sky_color": {
-        "sky_color": "#9d5de0"
+        "sky_color": "#c48ae0"
       },
       "minecraft:fog_appearance": {
-        "fog_identifier": "rd:endfog"
+        "fog_identifier": "rd:end_fog"
       },
       "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "rd:end"
+        "atmosphere_identifier": "rd:end_atmosphere"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "rd:end_global"
+        "lighting_identifier": "rd:end_lighting"
       }
     }
   }

@@ -1,36 +1,37 @@
 {
-  "format_version": "1.21.90",
+  "format_version": "1.21.80",
   "minecraft:water_settings": {
     "description": {
-      "identifier": "rd:swamp_water"
+      "identifier": "va:swamp_water"
     },
 
     "particle_concentrations": {
-      "chlorophyll": 0.035,
-      "suspended_sediment": 2.10,
-      "cdom": 1.55
+      "chlorophyll": 0.0042,
+      "suspended_sediment": 11.5,
+      "cdom": 6.2
     },
 
     "caustics": {
-      "enabled": false
+      "enabled": true,
+      "frame_length": 0.038,
+      "texture": "textures/caustics/caustics.png",
+      "scale": 0.45,
+      "power": 2.6
     },
 
     "waves": {
       "enabled": true,
-
-      "depth": 0.12,
-      "frequency": 0.42,
-      "octaves": 5,
-
-      "speed": 0.35,
-      "speed_scaling": 0.85,
-
-      "pull": 0.05,
-      "mix": 0.10,
-
-      "sampleWidth": 0.06,
-      "shape": 2.2,
-      "frequency_scaling": 0.95
+      "frequency": 1.18,
+      "octaves": 16,
+      "depth": 0.095,
+      "sampleWidth": 0.11,
+      "speed": 2.05,
+      "pull": 0.28,
+      "mix": 0.26,
+      "frequency_scaling": 1.18,
+      "speed_scaling": 1.08,
+      "direction_increment": 70,
+      "shape": 3.15
     }
   }
 }

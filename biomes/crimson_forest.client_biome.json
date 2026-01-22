@@ -5,23 +5,23 @@
       "identifier": "crimson_forest"
     },
     "components": {
-      "minecraft:sky_color": {
-        "sky_color": "#AFC7FF"
-      },
       "minecraft:fog_appearance": {
-        "fog_identifier": "rd:netherfog"
+        "fog_identifier": "rd:crimson_fog"
       },
-      "minecraft:color_grading_identifier": {
-        "color_grading_identifier": "rd:color_grading"        
+      "minecraft:sky_color": {
+        "sky_color": "#8b1e2d"
       },
       "minecraft:atmosphere_identifier": {
-        "atmosphere_identifier": "rd:nether"
+        "atmosphere_identifier": "rd:hell_atmosphere"
       },
       "minecraft:lighting_identifier": {
-        "lighting_identifier": "rd:nether_global"
+        "lighting_identifier": "rd:crimson_lighting"
+      },
+      "minecraft:color_grading_identifier": {
+        "color_grading_identifier": "rd:hell_grading"
       },
       "minecraft:water_appearance": {
-        "surface_color": "#5d92d3"
+        "surface_color": "#5a1f25"
       }
     }
   }

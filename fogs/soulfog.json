@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": { "identifier": "rd:soul_fog" },
+
+    "distance": {
+      "air": {
+        "fog_start": 42.0,
+        "fog_end": 176.0,
+        "fog_color": "#8aa0aa",
+        "render_distance_type": "fixed"
+      }
+    },
+
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.16,
+          "uniform": true
+        }
+      },
+
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.025, 0.050, 0.070],
+          "absorption": [0.030, 0.035, 0.020]
+        }
+      }
+    }
+  }
+}

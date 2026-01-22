@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:fog_settings": {
+    "description": { "identifier": "rd:warped_fog" },
+
+    "distance": {
+      "air": {
+        "fog_start": 56.0,
+        "fog_end": 236.0,
+        "fog_color": "#3fa8a0",
+        "render_distance_type": "fixed"
+      }
+    },
+
+    "volumetric": {
+      "density": {
+        "air": {
+          "max_density": 0.08,
+          "uniform": true
+        }
+      },
+
+      "media_coefficients": {
+        "air": {
+          "scattering": [0.02, 0.11, 0.10],
+          "absorption": [0.08, 0.015, 0.010]
+        }
+      },
+
+      "henyey_greenstein_g": {
+        "air": {
+          "henyey_greenstein_g": 0.38
+        }
+      }
+    }
+  }
+}
+

@@ -1,18 +1,18 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Refined Deferred – Vibrant Visuals Deferred Shader Pack for Minecraft Bedrock.",
-    "name": "Refined Deferred",
-    "uuid": "2e5da5bb-1f09-4203-b91e-ac3e39930348",
-    "version": [2, 0, 0],
+    "description": "Refined Deferred – Vibrant Visuals Shader Pack for Minecraft Bedrock.",
+    "name": "Refined Deferred v2.1",
+    "uuid": "4066e8c1-d1fb-41e0-92a6-86de8563fb3e",
+    "version": [2, 1, 0],
     "min_engine_version": [1, 21, 90]
   },
   "modules": [
     {
       "description": "Shader by XiaoCraft | Enhanced visuals and atmosphere.",
       "type": "resources",
-      "uuid": "c0e13016-d87a-4e27-a6c4-35f87f6ef7c6",
-      "version": [2, 0, 0]
+      "uuid": "d654c1e3-c637-44ea-b862-1a2cffe1f459",
+      "version": [2, 1, 0]
     }
   ],
   "capabilities": [

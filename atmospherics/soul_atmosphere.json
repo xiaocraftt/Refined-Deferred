@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:atmosphere_settings": {
+    "description": {
+      "identifier": "rd:soul_atmosphere"
+    },
+
+    "sky_zenith_color": {
+      "0.0": [20, 85, 95],
+      "1.0": [20, 85, 95]
+    },
+
+    "sky_horizon_color": {
+      "0.0": [55, 135, 145],
+      "1.0": [55, 135, 145]
+    },
+
+    "horizon_blend_stops": {
+      "min": 0.50,
+      "start": 0.40,
+      "mie_start": 0.90,
+      "max": 0.62
+    },
+
+    "rayleigh_strength": {
+      "0.0": 0.28,
+      "1.0": 0.28
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:lighting_settings": {
+    "description": {
+      "identifier": "rd:hell_lighting"
+    },
+
+    "directional_lights": {
+      "sun": {
+        "illuminance": {
+          "0.0": 110
+        },
+        "color": [255, 155, 120]
+      },
+      "moon": {
+        "illuminance": {
+          "0.0": 55
+        },
+        "color": [255, 210, 235]
+      }
+    },
+
+    "ambient": {
+      "illuminance": 1.25,
+      "color": [195, 95, 120]
+    },
+
+    "sky": {
+      "intensity": 0.55
+    }
+  }
+}

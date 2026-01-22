@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:atmosphere_settings": {
+    "description": {
+      "identifier": "rd:hell_atmosphere"
+    },
+
+    "sky_zenith_color": {
+      "0.0": [185, 90, 135]
+    },
+
+    "sky_horizon_color": {
+      "0.0": [255, 145, 175]
+    },
+
+    "horizon_blend_stops": {
+      "min": 0.35,
+      "start": 0.68,
+      "mie_start": 0.88,
+      "max": 0.48
+    },
+
+    "rayleigh_strength": {
+      "0.0": 0.55
+    }
+  }
+}
